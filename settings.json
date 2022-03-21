@@ -1,0 +1,88 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "files.autoSave": "afterDelay",
+    "python.linting.enabled": true,
+    "python.languageServer": "Pylance",
+    "files.autoSaveDelay": 700,
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Dracula",
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "editor.matchBrackets": "never",
+    "bracketPairColorizer.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "backgroundColor : {}",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "bracketPairColorizer.showBracketsInGutter": false,
+    "bracketPairColorizer.scopeLineCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "sync.gist": "a3a3c623ee5ee335d4b91f853bff0ee4",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceDownload": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.forceUpload": false,
+    "sync.quietSync": false,
+    "idf.gitPath": "/usr/bin/git",
+    "idf.espIdfPathWin": "C:\\esp\\esp-idf",
+    "idf.pythonBinPathWin": "C:\\Users\\edgar\\.espressif\\python_env\\idf4.4_py3.8_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "C:\\Users\\edgar\\.espressif",
+    "idf.customExtraPaths": "C:\\Users\\edgar\\.espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-patch2-8.4.0\\xtensa-esp32-elf\\bin;C:\\Users\\edgar\\.espressif\\tools\\xtensa-esp32s2-elf\\esp-2021r2-patch2-8.4.0\\xtensa-esp32s2-elf\\bin;C:\\Users\\edgar\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-2021r2-patch2-8.4.0\\xtensa-esp32s3-elf\\bin;C:\\Users\\edgar\\.espressif\\tools\\riscv32-esp-elf\\esp-2021r2-patch2-8.4.0\\riscv32-esp-elf\\bin;C:\\Users\\edgar\\.espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;C:\\Users\\edgar\\.espressif\\tools\\esp32s2ulp-elf\\2.28.51-esp-20191205\\esp32s2ulp-elf-binutils\\bin;C:\\Users\\edgar\\.espressif\\tools\\cmake\\3.20.3\\bin;C:\\Users\\edgar\\.espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\bin;C:\\Users\\edgar\\.espressif\\tools\\ninja\\1.10.2;C:\\Users\\edgar\\.espressif\\tools\\idf-exe\\1.0.3;C:\\Users\\edgar\\.espressif\\tools\\ccache\\4.3\\ccache-4.3-windows-64;C:\\Users\\edgar\\.espressif\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64",
+    "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"C:\\\\Users\\\\edgar\\\\.espressif\\\\tools\\\\openocd-esp32\\\\v0.11.0-esp32-20211220/openocd-esp32/share/openocd/scripts\",\"IDF_CCACHE_ENABLE\":\"1\"}",
+    "python.defaultInterpreterPath": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\black.exe",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "80"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.sortImports.args": [
+        "-m3",
+        "--tc",
+        "-fgw 0",
+        "--up",
+        "-n",
+        "-l 80"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flake8.exe",
+    "python.linting.flake8Args": [
+        "--ignore=E203",
+        "W503",
+        "--max-line-length=80"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\pylint.exe",
+    "python.linting.pylintArgs": [
+        "--disable=all",
+        "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode",
+        "--max-line-length=80",
+    ],
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "vsintellicode.features.apiExamples": "enabled",
+    "workbench.iconTheme": "material-icon-theme",
+    "update.mode": "none"
+}
