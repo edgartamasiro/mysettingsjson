@@ -82,7 +82,7 @@
         "--max-line-length=80",
     ],
     "vsintellicode.features.python.deepLearning": "enabled",
-    "vsintellicode.features.apiExamples": "enabled",
+    "vsintellicode.features.apiExamples": "disabled",
     "workbench.iconTheme": "material-icon-theme",
     "update.mode": "none"
 }
