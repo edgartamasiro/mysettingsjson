@@ -1,17 +1,17 @@
 {
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "400",
+    "editor.fontWeight": "370",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "files.exclude": {
         "**/node_modules": true
     },
+    "editor.fontSize": 17,
     "files.autoSave": "afterDelay",
     "python.linting.enabled": true,
     "python.languageServer": "Pylance",
     "files.autoSaveDelay": 700,
-    "editor.fontSize": 16,
     "workbench.colorTheme": "Dracula",
     "bracketPairColorizer.depreciation-notice": false,
     "editor.bracketPairColorization.enabled": true,
@@ -51,7 +51,7 @@
     "python.formatting.blackPath": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\black.exe",
     "python.formatting.blackArgs": [
         "--line-length",
-        "80"
+        "88"
     ],
     "[python]": {
         "editor.formatOnSave": true,
@@ -65,21 +65,21 @@
         "-fgw 0",
         "--up",
         "-n",
-        "-l 80"
+        "-l 88"
     ],
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flake8.exe",
     "python.linting.flake8Args": [
         "--ignore=E203",
         "W503",
-        "--max-line-length=80"
+        "--max-line-length=88"
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.pylintPath": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\pylint.exe",
     "python.linting.pylintArgs": [
         "--disable=all",
         "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode",
-        "--max-line-length=80",
+        "--max-line-length=88",
     ],
     "vsintellicode.features.python.deepLearning": "enabled",
     "vsintellicode.features.apiExamples": "disabled",
