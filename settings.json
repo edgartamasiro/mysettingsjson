@@ -2,8 +2,8 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontWeight": "370",
-    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
     "files.exclude": {
         "**/node_modules": true
     },
@@ -55,6 +55,8 @@
     ],
     "[python]": {
         "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnPaste": false,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
