@@ -8,12 +8,12 @@
     "files.exclude": {
         "**/node_modules": true
     },
-    "editor.fontSize": 17,
+    "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
     "python.linting.enabled": true,
     "python.languageServer": "Pylance",
     "files.autoSaveDelay": 700,
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Dracula Soft",
     "bracketPairColorizer.depreciation-notice": false,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
@@ -82,5 +82,6 @@
     "vsintellicode.features.apiExamples": "disabled",
     "workbench.iconTheme": "material-icon-theme",
     "update.mode": "none",
-    "jupyter.sendSelectionToInteractiveWindow": true
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "jupyter.alwaysScrollOnNewCell": true
 }
