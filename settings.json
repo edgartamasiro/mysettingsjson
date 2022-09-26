@@ -81,7 +81,10 @@
     "vsintellicode.features.python.deepLearning": "enabled",
     "vsintellicode.features.apiExamples": "disabled",
     "workbench.iconTheme": "material-icon-theme",
+    "update.enableWindowsBackgroundUpdates": false,
     "update.mode": "none",
     "jupyter.sendSelectionToInteractiveWindow": true,
-    "jupyter.alwaysScrollOnNewCell": true
+    "interactiveWindow.alwaysScrollOnNewCell": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "git.confirmSync": false
 }
