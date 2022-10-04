@@ -86,5 +86,13 @@
     "jupyter.sendSelectionToInteractiveWindow": true,
     "interactiveWindow.alwaysScrollOnNewCell": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.defaultDateLocale": "system",
+    "notebook.markup.fontSize": 12,
+    "notebook.outputFontSize": 14,
+    "notebook.showCellStatusBar": "visibleAfterExecute",
+    "notebook.editorOptionsCustomizations": {
+        "editor.fontSize": 14
+    }
 }
