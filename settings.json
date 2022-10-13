@@ -4,17 +4,19 @@
     "editor.fontLigatures": true,
     "editor.fontWeight": "370",
     "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
     "editor.formatOnPaste": false,
     "files.exclude": {
         "**/node_modules": true
     },
     "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
-    "python.linting.enabled": true,
-    "python.languageServer": "Pylance",
     "files.autoSaveDelay": 700,
     "workbench.colorTheme": "Dracula Soft",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#3a3a3b"
+    },
     "bracketPairColorizer.depreciation-notice": false,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
@@ -42,6 +44,8 @@
     "sync.syncExtensions": true,
     "sync.forceUpload": false,
     "sync.quietSync": false,
+    "python.linting.enabled": true,
+    "python.languageServer": "Pylance",
     "python.defaultInterpreterPath": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
     "python.formatting.provider": "black",
     "python.formatting.blackPath": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\black.exe",
@@ -50,6 +54,7 @@
         "88"
     ],
     "[python]": {
+        "editor.insertSpaces": true,
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "file",
         "editor.formatOnPaste": false,
@@ -68,6 +73,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\flake8.exe",
     "python.linting.flake8Args": [
+        // "--ignore=E111",
         "--ignore=E203",
         "W503",
         "--max-line-length=88"
@@ -79,6 +85,7 @@
         "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode",
         "--max-line-length=88",
     ],
+    "python.testing.unittestEnabled": false,
     "python.analysis.typeCheckingMode": "strict",
     "vsintellicode.features.python.deepLearning": "enabled",
     "vsintellicode.features.apiExamples": "disabled",
