@@ -1,6 +1,6 @@
 {
     "window.title": "${dirty}${activeEditorShort}${separator}${folderPath}${separator}${appName}",
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "line-thin",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -9,7 +9,7 @@
     "editor.formatOnSaveMode": "file",
     "editor.formatOnPaste": false,
     "files.exclude": {
-        //"**/node_modules": true
+        //"**/*.ipynb": true
     },
     "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
@@ -17,6 +17,7 @@
     "workbench.colorTheme": "Dracula Soft",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#424242",
         "statusBar.background": "#3a3a3b"
     },
     "bracketPairColorizer.depreciation-notice": false,
