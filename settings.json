@@ -1,4 +1,6 @@
 {
+    "window.title": "${dirty}${activeEditorShort}${separator}${folderPath}${separator}${appName}",
+    "editor.cursorStyle": "line",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -7,7 +9,7 @@
     "editor.formatOnSaveMode": "file",
     "editor.formatOnPaste": false,
     "files.exclude": {
-        "**/node_modules": true
+        //"**/node_modules": true
     },
     "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
@@ -73,7 +75,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "C:\\Users\\edgar\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\flake8.exe",
     "python.linting.flake8Args": [
-        // "--ignore=E111",
+        "--ignore=E111",
         "--ignore=E203",
         "W503",
         "--max-line-length=88"
@@ -87,8 +89,9 @@
     ],
     "python.testing.unittestEnabled": false,
     "python.analysis.typeCheckingMode": "strict",
+    "vsintellicode.python.completionsEnabled": true,
     "vsintellicode.features.python.deepLearning": "enabled",
-    "vsintellicode.features.apiExamples": "disabled",
+    //"vsintellicode.features.apiExamples": "disabled",
     "update.enableWindowsBackgroundUpdates": false,
     "update.mode": "none",
     "jupyter.sendSelectionToInteractiveWindow": true,
