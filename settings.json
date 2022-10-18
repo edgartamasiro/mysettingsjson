@@ -1,5 +1,5 @@
 {
-    "window.title": "${dirty}${activeEditorShort}${separator}${folderPath}${separator}${appName}",
+    "window.title": "${dirty}${separator}${folderPath}${separator}${appName}",
     "editor.cursorStyle": "line-thin",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "Fira Code",
