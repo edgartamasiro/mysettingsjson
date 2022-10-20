@@ -21,5 +21,9 @@
     {
         "key": "ctrl+enter",
         "command": "jupyter.execSelectionInteractive"
+    },
+    {
+        "key": ".",
+        "command": ""
     }
 ]
