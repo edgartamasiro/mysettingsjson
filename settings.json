@@ -1,6 +1,8 @@
 {
     "window.title": "${dirty}${separator}${folderPath}${separator}${appName}",
     "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
     "editor.minimap.enabled": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -89,10 +91,11 @@
         "--max-line-length=88",
     ],
     "python.testing.unittestEnabled": false,
-    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.typeCheckingMode": "off",
     "vsintellicode.python.completionsEnabled": true,
     "vsintellicode.features.python.deepLearning": "enabled",
-    //"vsintellicode.features.apiExamples": "disabled",
+    //"intellicodeApiExamples.loggingLevel":"INFO",
+    //"intellicodeApiExamples.python.enabled": true,
     "update.enableWindowsBackgroundUpdates": false,
     "update.mode": "none",
     "jupyter.sendSelectionToInteractiveWindow": true,
@@ -113,4 +116,5 @@
         //"lib": "${workspaceFolder}/lib",
         //"global": "/Users/dummy/globalLibs",
     },
+    "editor.stickyScroll.enabled": true
 }
