@@ -1,5 +1,5 @@
 {
-    "window.title": "${dirty}${separator}${folderPath}${separator}${appName}",
+    "window.title": "${dirty}${separator}${folderPath}",
     "editor.cursorStyle": "line-thin",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
@@ -100,15 +100,15 @@
     "update.mode": "none",
     "jupyter.sendSelectionToInteractiveWindow": true,
     "interactiveWindow.alwaysScrollOnNewCell": true,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    //"terminal.integrated.defaultProfile.windows": "Git Bash",
     "git.confirmSync": false,
     "gitlens.hovers.currentLine.over": "annotation",
     "gitlens.defaultDateLocale": "system",
     "notebook.markup.fontSize": 10,
-    "notebook.outputFontSize": 12,
+    "notebook.outputFontSize": 11,
     "notebook.showCellStatusBar": "visibleAfterExecute",
     "notebook.editorOptionsCustomizations": {
-        "editor.fontSize": 14
+        "editor.fontSize": 12
     },
     "path-intellisense.autoTriggerNextSuggestion": true,
     "path-intellisense.mappings": {
