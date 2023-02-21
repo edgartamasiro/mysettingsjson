@@ -65,7 +65,8 @@
         "editor.formatOnPaste": false,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
-        }
+        },
+        "editor.semanticHighlighting.enabled": "configuredByTheme"
     },
     "python.sortImports.args": [
         "-m3",
