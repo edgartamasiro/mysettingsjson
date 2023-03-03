@@ -106,7 +106,7 @@
     "gitlens.hovers.currentLine.over": "annotation",
     "gitlens.defaultDateLocale": "system",
     "notebook.markup.fontSize": 10,
-    "notebook.outputFontSize": 11,
+    "notebook.outputFontSize": 12,
     "notebook.showCellStatusBar": "visibleAfterExecute",
     "notebook.editorOptionsCustomizations": {
         "editor.fontSize": 12
